@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca019cce97.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="nissan-logo.png" class="logo">
+                <ul>
+                    <li><a href="#header" class="tab-links" data-tab="home">Home</a></li>
+                    <li><a href="#about" class="tab-links" data-tab="about">About</a></li>
+                    <li><a href="#projects" class="tab-links" data-tab="projects">Projects</a></li>
+                    <li><a href="#contact" class="tab-links" data-tab="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Java Developer</p>
+                <h1>Hi, I'm <span>Pawan</span><br>Tiwari From <br>Bhayander-<span>E</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Nisan.png" alt="About Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a detail-oriented and enthusiastic Java developer fresher, I possess a strong foundation in programming principles, data structures, and algorithms. With a degree in Computer Science, I have hands-on experience with Java, Eclipse, and Git. I am eager to apply my skills and knowledge in a real-world setting, learn from experienced professionals, and contribute to innovative projects. I am a quick learner, a team player, and passionate about delivering high-quality solutions</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" data-tab="skills">Skills</p>
+                        <p class="tab-links" data-tab="frameworks">Frameworks</p>
+                        <p class="tab-links" data-tab="education">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Core Java</span></li>
+                            <li><span>C Language</span></li>
+                            <li><span>C++ With OOP</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="frameworks">
+                        <ul>
+                            <li><span>Spring Boot</span></li>
+                            <li><span>MySQL</span></li>
+                            <li><span>Github</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th Passed From CBSE Board in 2017.</span></li>
+                            <li><span>12th Passed From UP Board in 2019.</span></li>
+                            <li><span>B.com From Himtaj Mahavidyalaya in 2022.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Book Database Management System</h2><br>
+                    <p>This Books DBMS Project is a Java-based console application that interacts with a MySQL database to manage a books collection. Users can add, view, update, and delete book records. It uses JDBC for database connectivity and provides a user-friendly menu-driven interface for seamless CRUD (Create, Read, Update, Delete) operations.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>(! This Passage Is Under Development !)</h2>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Book Database Management System</h2><br>
+                    <p>This Books DBMS Project is a Java-based console application that interacts with a MySQL database to manage a books collection. Users can add, view, update, and delete book records. It uses JDBC for database connectivity and provides a user-friendly menu-driven interface for seamless CRUD (Create, Read, Update, Delete) operations.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-address-book"></i> mepawan1999@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7905240227</p><br>
+                    <a href="Pawan Dinesh Tiwari CV.pdf" download class="btn-btn2">Download CV</a>       
+                </div>
+                <div class="contact-right">
+
+
+                <form action="submit_form.php" method="post">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn-btn2">Submit</button>
+                </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Pawan Dinesh Tiwari <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
