@@ -1,5 +1,17 @@
 This project is a portfolio website designed to showcase my skills, projects, and contact information in a professional and visually appealing manner. Here's a detailed breakdown of each section of your portfolio website:
 
+what tools this project is made
+Your portfolio website project is made using a combination of the following tools and technologies:
+
+Frontend Development
+HTML: For structuring the web pages.
+
+CSS: For styling and layout.
+
+JavaScript: For interactivity and dynamic features.
+
+Font Awesome: For icons and visual elements.
+
 ### 1. Header Section
 The header section includes a navigation bar and a welcoming header text:
 - **Navigation Bar**: Contains links to different sections of the website such as Home, About, Projects, and Contact.
